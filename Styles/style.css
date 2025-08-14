@@ -13,6 +13,13 @@
     width: 1140px;
     margin: auto;
 }
+.shared-text-color{
+    color: #E95A08;
+}
+.shared-text-color2{
+    color: rgba(0, 0, 0, 0.5);
+}
+/* shared-style end */
 a{
     text-decoration: none;
 }
@@ -49,4 +56,73 @@ a{
 .banner-head{
     font-weight: 700;
     font-size: 4rem;
+}
+.banner-description{
+    font-size: 1.38rem ;
+    margin-top: 13px;
+}
+/* main-section-start */
+.main-section{
+    margin-top: 120px;
+}
+.main-header{
+    font-size: 3.12rem;
+    font-weight: 700;
+    text-align: center;
+}
+.cart-description{
+    font-size: 1.38rem ;
+    margin-top: 13px;
+    text-align: center;
+    margin: 13px 0px 50px 0px;
+}
+.cart-image{
+    height: 322px;
+}
+.cart-item{
+    height: 484px;
+    width: 270px;
+    text-align: center;
+}
+.product-info{
+    margin: 30px 0 30px 0;
+    color: #111111 ;
+    font-size: 1.37rem;
+    font-weight: 500;
+    flex-direction: column;
+}
+.price{
+    font-size:1.37rem;
+    font-weight: 700; 
+}
+.primary-btn{
+    width: 270px;
+    height: 50px;
+    background-color:#E95A08;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color:#ffff;
+    padding: 19px 80px 19px 80px; 
+}
+.cart-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    row-gap: 40px;
+}
+/* <!-- flower-store section --> */
+.flower-store{
+    margin-top: 237px;
+}
+.shop-img{
+    width: 540px;
+    height: 597px;
+}
+.flower-lover{
+    display: flex;
+    /* gap: 50px; */
+}
+.main-header{
+    white-space: nowrap;
 }
