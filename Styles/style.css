@@ -113,16 +113,35 @@ a{
 }
 /* <!-- flower-store section --> */
 .flower-store{
-    margin-top: 237px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 210px;
+}
+.flower-lover {
+  display: flex;
+  gap: 80px;;
+}
+.trust-badge{
+    height: 286px;
+    width: 286px;
+    position: absolute;
+    margin-left: -180px;
+    margin-top: -154px;
+
 }
 .shop-img{
+    height: 597px; 
     width: 540px;
-    height: 597px;
 }
-.flower-lover{
-    display: flex;
-    /* gap: 50px; */
+.plants-lover {
+  font-size: 3rem;
+  font-weight: 700px;
+  line-height: 1.2;
+  /* margin-bottom: 24px; */
 }
-.main-header{
-    white-space: nowrap;
+.list-item li{
+    font-size: 1.37rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
